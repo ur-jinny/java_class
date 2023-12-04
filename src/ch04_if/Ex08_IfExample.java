@@ -16,7 +16,7 @@ public class Ex08_IfExample {
 		 *  출력 예
 		 *   가장 큰 숫자는 00 입니다.
 		 */
-		
+		// 000
 		Scanner sc = new Scanner(System.in);
 		int num1 = 0;
 		int num2 = 0;
