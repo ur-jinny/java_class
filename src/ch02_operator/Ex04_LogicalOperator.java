@@ -4,9 +4,9 @@ public class Ex04_LogicalOperator {
 
 	public static void main(String[] args) {
 		// 논리연산자
-		System.out.println(true && true);
-		System.out.println(false && false); // 
-		System.out.println(true || true);
+		System.out.println(true && true);//&& 기준으로 양쪽 모두가 True여야 결과가 True이며, 하나라도 틀리면 결과는 False
+		System.out.println(false && false);
+		System.out.println(true || true);//||기준으로 양쪽 모두가 False여야 결과가 false이며, 하나라도 true이면 결과는 true
 
 		boolean bool1 = true;
 		boolean bool2 = false;
