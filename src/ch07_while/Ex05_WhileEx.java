@@ -10,22 +10,8 @@ public class Ex05_WhileEx {
          * 숫자를 맞추면 종료하고 몇 번만에 맞췄는지를 출력해줌
          */
         Scanner scanner = new Scanner(System.in);
-        System.out.println("숫자");
-        int num1 = scanner.nextInt();
-        int i = ((int)(Math.random() * 100)+1);
         boolean run = true;
 
-
-        while (run){
-            if(num1 != i) {
-                System.out.println("땡");
-                num1 = scanner.nextInt();
-
-            }else{
-                System.out.println("정답");
-                run = false;
-            }
-        }
         //선생님 풀이 위에랑 똑같음(다른공식)
         // Scanner scanner = new Scanner(System.in);
         //boolean run = true;
