@@ -16,7 +16,8 @@ public class Ex02_IfExample {
 		javaScore = scanner.nextInt();
 		if (javaScore >= 60) {
 			System.out.println("합격");
-		} else {
+		}
+		else {
 			System.out.println("불합격");
 		}
 
