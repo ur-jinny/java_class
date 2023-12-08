@@ -12,22 +12,19 @@ public class Ex04_ArrayEx {
              * 입력했을 때 그 숫자가 몇 번 인덱스에 있는지 출력
              */
 
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("숫자를 입력하세요: ");
-            int num1 = scanner.nextInt();
-
+            Scanner scan = new Scanner(System.in);
+            System.out.print("숫자: ");
+            int number = scan.nextInt();
             for (int i = 0; i < num.length; i++) {
-                if (num1 == num1)
-                    System.out.print("값이 출력됩니다");
-                num[i] = scanner.nextInt();
-
-
+                if (number == num[i]) {
+                    System.out.println(number + "는 " + i + " 번 인덱스에 있습니다.");
+                }
             }
         }
     }
+
+
 }
-
-
 
 //    Scanner scan = new Scanner(System.in);
 //        System.out.print("숫자: ");
