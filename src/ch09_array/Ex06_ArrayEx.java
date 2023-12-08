@@ -19,7 +19,7 @@ public class Ex06_ArrayEx {
 //        for (int i = 0; i < numbers1.length; i++) {
 //            numbers1[i] = scanner.nextInt(); // i가 왜 있는가 (순서)-어디 칸에 대입..
 //           //
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);//
         int[] numbers = new int[5]; //크기가 5인 정수형 배열 선언
         int max = 0;
         for (int i = 0; i < numbers.length; i++) {
@@ -30,7 +30,7 @@ public class Ex06_ArrayEx {
                max = numbers[i];     // 다른 Max값 입력값 비교 후 입력값이 더크면
                                      // Max는 입력값이 그렇지 않은 경우 기존 MAX 그대로 성립.
         }
-        System.out.println("가장 큰 숫자는" + max + "입니다");
+        System.out.println("가장 큰 숫자는 " + max + "입니다");
     }
 }
 
