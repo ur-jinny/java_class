@@ -20,16 +20,25 @@ public class Ex09_ArrayEx {
             select = scan.nextInt();
 
             if (select == 1) {
+                System.out.print("학생수> ");
+            }
+
+
+            if (select == 2) {
                 // 학생수입력
                 System.out.print("1번 학생 점수: ");
                 student = scan.nextInt();
                 student += student;
-                System.out.println("2번 학생 점수: ");
+                System.out.print("2번 학생 점수: ");
+                student = scan.nextInt();
+                System.out.print("3번 학생 점수: ");
+                student = scan.nextInt();
 
-
+//여기까지 혼자 해본거!
             }
 
 
         }
     }
 }
+
