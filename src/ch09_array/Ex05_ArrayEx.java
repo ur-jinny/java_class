@@ -24,9 +24,9 @@ public class Ex05_ArrayEx {
         int[] coin = {500, 100, 50, 10};
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("거스름돈: ");
         int change = scanner.nextInt();
-        //      혼자 여기까지는 했음!
+        System.out.println("거스름돈: ");
+        // 혼자 여기까지는 했음!
         int count = 0;
         //거스름돈/동전 = 몫(갯수)
         for (int i = 0; i < coin.length; i++) {
