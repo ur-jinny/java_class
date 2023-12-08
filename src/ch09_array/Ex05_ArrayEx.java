@@ -19,6 +19,7 @@ public class Ex05_ArrayEx {
          *      50원 1개
          *      10원 3개
          *
+         *
          */
         int[] coin = {500, 100, 50, 10};
 
