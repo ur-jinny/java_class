@@ -1,5 +1,7 @@
 package ch10_class.ex2;
 
+import java.util.Arrays;
+
 public class StudentMain {
     public static void main(String[] args) {
         // Student 클래스 객체 선언
@@ -17,7 +19,8 @@ public class StudentMain {
         student2.studentName = "학생2";
         student2.studentMajor ="경영학";
         student2.studentMobile = "010-2222-2222";
-
-
+        System.out.println("student2.studentName = " + student2.studentName );
+        System.out.println("student2.studentMajor = " + student2.studentMajor );
+        System.out.println("student2.studentMobile = " + student2.studentMobile );
     }
 }
