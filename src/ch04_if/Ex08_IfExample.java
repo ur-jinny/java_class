@@ -12,11 +12,11 @@ public class Ex08_IfExample {
 		 *  첫번째 숫자 :
 		 *  두번째 숫자 :
 		 *  세번째 숫자 :
-		 *  
+		 *
 		 *  출력 예
 		 *   가장 큰 숫자는 00 입니다.
 		 */
-		// 000
+
 		Scanner sc = new Scanner(System.in);
 		int num1 = 0;
 		int num2 = 0;
@@ -27,15 +27,15 @@ public class Ex08_IfExample {
 		num2 = sc.nextInt();
 		System.out.print("세 번째 숫자를 입력하세요 : ");
 		num3 = sc.nextInt();
-		
-		if(num1 > num2 && num1 > num3) {
-			System.out.println("가장 큰 숫자는 "+ num1 + "입니다.");
-		}else if(num2 > num1 && num2 > num3) {
-			System.out.println("가장 큰 숫자는 "+ num2 + "입니다.");
-		}else if(num3 > num1 && num3 > num2) {
-			System.out.println("가장 큰 숫자는 "+ num3 + "입니다.");
+
+		if (num1 > num2 && num1 > num3) {
+			System.out.println("가장 큰 숫자는 " + num1 + "입니다.");
+		} else if (num2 > num1 && num2 > num3) {
+			System.out.println("가장 큰 숫자는 " + num2 + "입니다.");
+		} else if (num3 > num1 && num3 > num2) {
+			System.out.println("가장 큰 숫자는 " + num3 + "입니다.");
 		}
-		
+
 		int max = 0;
 		if (num1 > num2) {
 			if (num1 > num3) {
@@ -52,9 +52,4 @@ public class Ex08_IfExample {
 		}
 		System.out.println("가장 큰 수는 " + max + "입니다.");
 	}
-
-
-	}
-
-//00000
-//00001
+}

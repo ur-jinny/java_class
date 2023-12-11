@@ -1,7 +1,7 @@
 package ch02_operator;
 
 public class Ex02_ComparisonOperator {
-
+ 				//  비교 연산자 _뭐가 크냐 작냐 boolean 사용
 	public static void main(String[] args) {
 		// public static void main(String[] args) {
 		System.out.println(10 > 5);

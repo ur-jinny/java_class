@@ -15,8 +15,8 @@ public class Ex01_ArithmeticOperator {
 		System.out.println("덧셈결과: " + (num1 + num2));
 		System.out.println(num1 - num2);
 		System.out.println(num1 * num2);
-		System.out.println(num1 / num2);
-		System.out.println(num1 % num2);
+		System.out.println(num1 / num2); //결과값이 몫이 나옴
+		System.out.println(num1 % num2); //결과값이 나머지가 나옴
 		
 		// 계산 결과를 담을 변수 활용 
 		int result = 0;

@@ -8,6 +8,7 @@ public class Ex05_ifExample {
 		/**
 		 * 정수 하나를 입력 받아서 양수, 음수, 0인지를 출력
 		 */
+
 		Scanner scanner = new Scanner(System.in);
 		int num = scanner.nextInt();
 		if (num > 0) {

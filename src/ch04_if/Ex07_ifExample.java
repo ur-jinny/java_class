@@ -16,14 +16,12 @@ public class Ex07_ifExample {
 		Scanner sc = new Scanner(System.in);
 		int year = 0;
 	    int score = 0;
-	    
-	    
+
 	    System.out.print("학년을 입력하세요 : ");
 	    year = sc.nextInt();
 	    System.out.print("점수를 입력하세요 : ");
 	    score = sc.nextInt();
-	    
-	    
+
 	    if(year >= 1 && year <= 4 && score >= 0 && score <= 100) {
 	    	if(score >= 70) {
 	    		System.out.println("축하합니다. 합격입니다.");

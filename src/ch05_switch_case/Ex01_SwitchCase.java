@@ -4,7 +4,7 @@ public class Ex01_SwitchCase {
     public static void main(String[] args) {
         int num = 0;
         switch (num) {
-            case 0: // num == 0
+            case 0: // num == 0    // num 이 0 일 때,
                 System.out.println("num은 0입니다.");
                 break;
             case 1: // num == 1

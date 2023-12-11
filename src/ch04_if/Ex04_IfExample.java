@@ -14,16 +14,14 @@ public class Ex04_IfExample {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("점수: ");
 		int score = scanner.nextInt();
-		
+
 //		if (0 < score < 100) // x
-		
 //		if (score > 100 || score < 0) {
 //			System.out.println("입력범위를 초과하였습니다.");
 //		} else {
 //			// 학점 처리 
 //		}
-		
-		
+
 		String grade = "";
 		if (score < 100 && score > 0) {
 			// 학점 처리 
@@ -46,14 +44,11 @@ public class Ex04_IfExample {
 		} else {
 			System.out.println("입력범위를 초과하였습니다.");
 		}
-		
+
 		System.out.println("학점은 " + grade + "입니다.");
-		
-		
-	}
-
 
 
 	}
+}
 
 

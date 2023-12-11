@@ -7,13 +7,15 @@ public class Ex02_ForEx {
             System.out.println("i = " + i);
         }
         System.out.println("----------------------");
+
         // 2 4 6 8 10 출력
         for (int i = 2; i <= 10; i+=2) {
             System.out.println("i = " + i);
         }
         System.out.println("---------------------");
+
         // 5 4 3 2 1 출력
-        for (int i = 5; i >= 1; i--) {
+        for (int i = 5; i >= 1; i--) { // 가운데 조건이 중요함.
             System.out.println("i = " + i);
         }
 
