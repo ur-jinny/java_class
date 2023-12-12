@@ -10,6 +10,7 @@ public class StudentMain {
         student1.studentName = "학생1";
         student1.studentMajor = "컴퓨터공학";
         student1.studentMobile = "010-1111-1111";
+
         System.out.println("student1.studentName = " + student1.studentName );
         System.out.println("student1.studentMajor = " + student1.studentMajor );
         System.out.println("student1.studentMobile = " + student1.studentMobile );
