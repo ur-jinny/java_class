@@ -65,6 +65,7 @@ public class Student {
         System.out.println("이름: " + studentName + "  학번: " + studentNumber + "  학과: " + studentMajor + "  전화번호: " + studentMobile);
     }
 
+
     /**
      * method name: toString
      * return type: String
