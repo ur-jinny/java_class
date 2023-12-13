@@ -5,8 +5,8 @@ public class StudentMain {
         // 기본생성자 객체 선언 //붕어빵 틀
         Student student1 = new Student();
 
-        // 매개변수가 있는 생성자로 객체 선언
-        Student student2 = new Student("이름1");
+        // 매개변수가 1개 있는 생성자로 객채 선언
+        Student student2 = new Student("이름2");
 
         //매개변수가 2개 있는 생성자로 객체 선언
         Student student3 = new Student("이름1", "체육학");
