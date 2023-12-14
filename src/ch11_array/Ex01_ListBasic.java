@@ -64,7 +64,7 @@ public class Ex01_ListBasic {
             for (String bb: strList) {
                 System.out.println("bb = " + bb);
             }
-
+//11
             strList.forEach(bb->  {
                 System.out.println("bb = " + bb);
             });
