@@ -14,8 +14,23 @@ public class Ex03_IfExample {
 		 * 60점 보다 적은 점수면 F 
 		 * 를 출력 
 		 */
-		Scanner scanner = new Scanner(System.in);
-		System.out.print("점수: ");
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.print("점수: ");
+//		int score = scanner.nextInt();
+//
+//		if (score >= 90) {
+//			System.out.println("A");
+//		} else if (score >= 80) {
+//			System.out.println("B");
+//		} else if (score >= 70) {
+//			System.out.println("C");
+//		} else if (score >= 60) {
+//			System.out.println("D");
+//		} else {
+//			System.out.println("F");
+
+	Scanner scanner = new Scanner(System.in);
+		System.out.print("점수 : ");
 		int score = scanner.nextInt();
 
 		if (score >= 90) {
@@ -26,9 +41,12 @@ public class Ex03_IfExample {
 			System.out.println("C");
 		} else if (score >= 60) {
 			System.out.println("D");
-		} else {
+		}else {
 			System.out.println("F");
 		}
+
+
+	}
 	}
 
-}
+

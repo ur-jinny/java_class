@@ -19,6 +19,15 @@ public class Ex05_ifExample {
 			System.out.println("0 입니다.");
 		}
 
+
+
+
+
+
+
+
+
+
 	}
 
 }

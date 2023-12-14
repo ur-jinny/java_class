@@ -1,4 +1,6 @@
-package ch11_array;
+package ch11_array.ex2;
+
+import ch11_array.ex2.Student;
 
 import java.util.ArrayList;
 import java.util.List;
