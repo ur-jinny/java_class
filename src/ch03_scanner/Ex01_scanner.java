@@ -7,7 +7,7 @@ public class Ex01_scanner {
 
 	public static void main(String[] args) {
 		// // scanner 라는 이름의 Scanner 클래스 객체 선언
-		Scanner scanner = new Scanner(System.in); // 스케너라는 객체를 선언해야 입력값이 생성된다. 공식이므로 외워야한다. // 이 시스템안에 스캐너를 작동시킬거야?
+		Scanner scanner = new Scanner(System.in); // 입력을 받기 위해서 사용하는 클래스/ 이걸을 사용위해 객체 선언
 		System.out.print("숫자를 입력하세요: "); //  "숫자를 입력하세요" 를 먼저 출력을 하고
 		int num1 = scanner.nextInt();	//내가 작성하고 싶으니까 //내가 적는 정수의 값이 num1에 담긴다. --> 정수형 변수 num1 에 이 시스템 안에 작성할꺼야. 정수이므로 nextInt();
 		System.out.println(num1); // 내가 쓴 정수값이  출력 될것이다.
@@ -24,7 +24,7 @@ public class Ex01_scanner {
 
 	}
 
-
+// 00
 
 	}
 
