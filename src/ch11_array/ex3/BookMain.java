@@ -30,7 +30,7 @@ public class BookMain {
         }
 
         // for each를 이용하여 bookList의 전체 데이터 출력
-        for (Book book : bookList) {
+        for (Book book: bookList) {
             System.out.println("book = " + book);
         }
 
@@ -46,10 +46,8 @@ public class BookMain {
         }
 
         // for each를 이용하여 bookList의 전체 데이터 출력
-        for (Book book : bookList) {
+        for (Book book: bookList) {
             System.out.println("book = " + book);
         }
-
     }
 }
-
